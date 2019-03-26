@@ -3,7 +3,7 @@ module.exports = {
 
   siteTitle: 'Erik Clevenger - Designer Developer', // Navigation and Site Title
   siteTitleAlt: 'Erik Clevenger', // Alternative Site title for SEO
-  siteUrl: 'https://heuristic-almeida-a79b97.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://agitated-bohr-e6a4f4.netlify.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'The Design portfolio of Erik Clevenger',
