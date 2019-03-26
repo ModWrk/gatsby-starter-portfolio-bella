@@ -76,7 +76,7 @@ const Content = styled.main`
     margin-left: 1.45rem;
   }
   .block-img {
-    max-width: 100%;
+    max-width: 45%;
     margin-top: 6rem;
     margin-bottom: 6rem;
     text-align: center;

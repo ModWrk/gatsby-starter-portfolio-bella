@@ -99,7 +99,7 @@ const GridItem = ({ uid, image, alt, title, subtitle }) => (
     <StyledLink to={uid}>
       <Overlay justifyContent="center" alignItems="center" flexDirection="column">
         <span>view</span>
-        <span>case study</span>
+        {/* <span>case study</span> */}
       </Overlay>
       <Img fluid={image} alt={alt} />
     </StyledLink>

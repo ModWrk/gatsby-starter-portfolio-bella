@@ -6,9 +6,9 @@ import { Flex } from 'grid-emotion';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import GridItem from '../components/GridItem';
-import BeTheHero from '../images/be_the_hero.svg';
-import DataReport from '../images/data_report.svg';
-import MayTheForce from '../images/may_the_force.svg';
+// import BeTheHero from '../images/be_the_hero.svg';
+// import DataReport from '../images/data_report.svg';
+// import MayTheForce from '../images/may_the_force.svg';
 
 const Header = styled.header`
   width: 100%;
@@ -76,67 +76,67 @@ const PrimaryBG = styled.section`
   }
 `;
 
-const ServiceImage = styled.div`
-  flex-basis: calc(99.9% * 4 / 7 - 5rem);
-  max-width: calc(99.9% * 4 / 7 - 5rem);
-  width: calc(99.9% * 4 / 7 - 5rem);
-  text-align: center;
-  img {
-    width: 90%;
-    margin-bottom: 2rem;
-  }
-  @media (max-width: ${props => props.theme.breakpoint.l}) {
-    flex-basis: 100%;
-    max-width: 100%;
-    width: 100%;
-    img {
-      width: 50%;
-    }
-  }
-  @media (max-width: ${props => props.theme.breakpoint.s}) {
-    img {
-      width: 75%;
-    }
-  }
-`;
+// const ServiceImage = styled.div`
+//   flex-basis: calc(99.9% * 4 / 7 - 5rem);
+//   max-width: calc(99.9% * 4 / 7 - 5rem);
+//   width: calc(99.9% * 4 / 7 - 5rem);
+//   text-align: center;
+//   img {
+//     width: 90%;
+//     margin-bottom: 2rem;
+//   }
+//   @media (max-width: ${props => props.theme.breakpoint.l}) {
+//     flex-basis: 100%;
+//     max-width: 100%;
+//     width: 100%;
+//     img {
+//       width: 50%;
+//     }
+//   }
+//   @media (max-width: ${props => props.theme.breakpoint.s}) {
+//     img {
+//       width: 75%;
+//     }
+//   }
+// `;
 
-const ServiceText = styled.div`
-  flex-basis: calc(99.9% * 3 / 7 - 5rem);
-  max-width: calc(99.9% * 3 / 7 - 5rem);
-  width: calc(99.9% * 3 / 7 - 5rem);
-  @media (max-width: ${props => props.theme.breakpoint.l}) {
-    flex-basis: 100%;
-    max-width: 100%;
-    width: 100%;
-  }
-  ol,
-  ul {
-    list-style: none;
-    margin-left: 0;
-  }
-  li:before {
-    content: '－';
-    padding-right: 8px;
-  }
-`;
+// const ServiceText = styled.div`
+//   flex-basis: calc(99.9% * 3 / 7 - 5rem);
+//   max-width: calc(99.9% * 3 / 7 - 5rem);
+//   width: calc(99.9% * 3 / 7 - 5rem);
+//   @media (max-width: ${props => props.theme.breakpoint.l}) {
+//     flex-basis: 100%;
+//     max-width: 100%;
+//     width: 100%;
+//   }
+//   ol,
+//   ul {
+//     list-style: none;
+//     margin-left: 0;
+//   }
+//   li:before {
+//     content: '－';
+//     padding-right: 8px;
+//   }
+// `;
 
-const Contact = styled(Wrapper)`
-  margin: 0 auto;
-  h1,
-  h2,
-  h3 {
-    color: ${props => props.theme.colors.text};
-  }
-  h3 {
-    font-family: ${props => props.theme.fontFamily.body};
-    margin-top: 1rem;
-    font-size: 1.85rem;
-    font-weight: 400;
-  }
-  @media (max-width: ${props => props.theme.breakpoint.m}) {
-    font-size: 1.5rem;
-  }
-`;
+// const Contact = styled(Wrapper)`
+//   margin: 0 auto;
+//   h1,
+//   h2,
+//   h3 {
+//     color: ${props => props.theme.colors.text};
+//   }
+//   h3 {
+//     font-family: ${props => props.theme.fontFamily.body};
+//     margin-top: 1rem;
+//     font-size: 1.85rem;
+//     font-weight: 400;
+//   }
+//   @media (max-width: ${props => props.theme.breakpoint.m}) {
+//     font-size: 1.5rem;
+//   }
+// `;
 
 const IndexPage = ({
   data: {
@@ -145,12 +145,12 @@ const IndexPage = ({
 }) => (
   <Layout>
     <Header>
-      <Logo>Bella Inc.</Logo>
+      <Logo>Erik Clevenger</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
         <h1>
-          We design and develop <br /> noice web applications.
+          Designer, Developer <br /> maker of things.
         </h1>
-        <h3>Hi, Bella Inc., the human form of the 💯 Emoji.</h3>
+        <h3>I am a fan of all things design.</h3>
       </Hero>
     </Header>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
@@ -165,12 +165,12 @@ const IndexPage = ({
         />
       ))}
     </Wrapper>
-    <PrimaryBG>
+    {/* <PrimaryBG>
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
-          <ServiceImage>
+          * <ServiceImage>
             <img src={BeTheHero} alt="Be The Hero" />
-          </ServiceImage>
+          </ServiceImage> *
           <ServiceText>
             <h2>Be your own hero</h2>
             <p>
@@ -222,11 +222,11 @@ const IndexPage = ({
           </ServiceText>
         </Flex>
       </Wrapper>
-    </PrimaryBG>
-    <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
+    </PrimaryBG> */}
+    {/* <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
       <h3>contact@domain.com</h3>
-    </Contact>
+    </Contact> */}
     <Footer />
   </Layout>
 );
