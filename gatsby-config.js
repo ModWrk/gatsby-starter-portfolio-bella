@@ -19,7 +19,7 @@ module.exports = {
       resolve: 'gatsby-source-prismic',
       options: {
         repositoryName: 'etc-portfolio',
-        accessToken: `MC5YSmx5UnhBQUFPZkdkeG10.77-977-977-9d--_ve-_vWDvv71lNWg377-977-9Pu-_ve-_vWVSWHBLP--_vXlpGn4yGe-_ve-_vQ`,
+        accessToken: `${process.env.production.API_KEY}`,
         linkResolver: ({ node, key, value }) => doc => `/${doc.uid}`,
         htmlSerializer: ({ node, key, value }) => (type, element, content, children) => {
           // Your HTML serializer
