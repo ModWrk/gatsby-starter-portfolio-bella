@@ -7,7 +7,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'The Design portfolio of Erik Clevenger',
-  author: 'LekoArts', // Author for schemaORGJSONLD
+  author: 'Erik Clevenger', // Author for schemaORGJSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@bella', // Twitter Username
