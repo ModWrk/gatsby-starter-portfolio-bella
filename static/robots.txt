@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://portfolio-bella.netlify.com/sitemap.xml
+sitemap: https://heuristic-almeida-a79b97.netlify.com/sitemap.xml
