@@ -44,8 +44,7 @@
     "dev": "gatsby develop -o",
     "build": "gatsby build",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -57,7 +56,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "gh-pages": "^2.0.1",
+
     "prettier": "^1.14.3"
   }
 }
