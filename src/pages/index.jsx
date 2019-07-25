@@ -65,16 +65,16 @@ const Wrapper = styled(Flex)`
   max-width: ${props => props.theme.maxWidth};
 `;
 
-const PrimaryBG = styled.section`
-  background: ${props => props.theme.colors.primaryDark};
-  color: ${props => props.theme.colors.textInvert};
-  h1,
-  h2,
-  h3,
-  h4 {
-    color: ${props => props.theme.colors.textInvert};
-  }
-`;
+// const PrimaryBG = styled.section`
+//   background: ${props => props.theme.colors.primaryDark};
+//   color: ${props => props.theme.colors.textInvert};
+//   h1,
+//   h2,
+//   h3,
+//   h4 {
+//     color: ${props => props.theme.colors.textInvert};
+//   }
+// `;
 
 // const ServiceImage = styled.div`
 //   flex-basis: calc(99.9% * 4 / 7 - 5rem);

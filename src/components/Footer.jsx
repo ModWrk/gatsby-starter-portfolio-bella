@@ -47,7 +47,7 @@ const Footer = ({ isCase }) => {
         {isCase ? (
           <React.Fragment>
             <StyledLink to="/">Return to home</StyledLink>
-            <div>Contact Us</div>
+            <div>Contact</div>
           </React.Fragment>
         ) : (
           <React.Fragment>
